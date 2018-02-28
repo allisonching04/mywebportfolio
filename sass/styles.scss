@@ -1,0 +1,141 @@
+$primary-font: 'Merriweather', serif;
+$secondary-font: 'Lato', sans-serif;
+
+$light-grey: #EFEFEF;
+$dark-grey: #A9A9A9;
+$dark-blue: #1A2930;
+$highlight-red: #DE1B1B;
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Merriweather:400,900');
+
+// universal elements
+body {
+	padding:0;
+	margin:0;
+	height: 100%;
+}
+
+.page_container {
+	display: flex;
+	flex-direction: column;
+
+}
+// navbar
+.primary_nav {
+	border-bottom: 1px solid $dark-grey;
+
+	.primary_nav_flex {
+	    align-items: center;
+	    display: flex;
+	    justify-content: space-between;
+	    // padding: 0 3.5em;
+
+	    div {
+	    	padding: 0 1.5em;
+	    }
+
+	    ul {
+	    	padding: 0 3.5em;
+	    }
+  	}
+  	.primary_nav_ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 18%;
+    font: 0.9em $secondary-font;
+    color: $dark-blue;
+
+    .primary_nav_item .primary_nav_item_link{
+      color: #000;
+      text-decoration: none;
+      transition: color .3s ease-in;
+
+
+     	&:hover {
+     		color: rgba(0,0,0,0.7);
+     		}
+	 	}
+	}
+
+	 .primary_nav_item  {
+	    display: inline-block;
+	 }
+}
+
+.main_nav_border {
+  width:100%;
+}
+
+.primary_nav_effect {
+	li {
+	  float: left;
+	  position: relative;
+	  display: block;
+	}
+
+	li:after {
+	  color: $dark-grey;
+	  content: '|';
+	  position: absolute;
+	  //top: 2.3em;
+	  right: -2.5em;
+	  z-index: 10;
+	  transform: rotate(13deg);
+	  -webkit-transform: rotate(13deg);
+	  -o-transform: rotate(13deg);
+	  -ms-transform: rotate(13deg);
+	}
+
+	li > a:after {
+	  content: '';
+	  position: absolute;
+	  top: 1.5em;
+	  left: 15%;
+	  width: 70%;
+	  height: 3px;
+	  transform: scaleX(0);
+	  background-color: $highlight-red;
+	  transition: all .2s ease;
+	  //opacity: 0.6;
+	}
+	.primary_nav_current > a,
+	li > a:hover {
+	  background-color: transparent;
+	  color: #111;
+	}
+
+	li > a:hover::after {
+	  transform: scaleX(2);
+	}
+	.primary_nav_current>a:after {
+		content: '';
+		position: absolute;
+		top: 1.5em;
+		left: 15%;
+		width: 70%;
+		height: 3px;
+		transform: scaleX(2);
+		background-color: $highlight-red;
+	} 
+}
+
+
+
+
+
+footer {
+	background: orange;
+}
+
+
+
+// homepage grid
+
+
+
+
+
+
+
+
