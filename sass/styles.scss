@@ -15,6 +15,21 @@ body {
 	height: 100%;
 }
 
+
+h2 {
+	font-size: 4.3em;
+	padding: 0;
+	margin: 0 auto;
+}
+
+
+
+a {
+	color:$dark-blue;
+	text-decoration: none;
+	cursor: pointer;
+}
+
 .page_container {
 	display: flex;
 	flex-direction: column;
@@ -28,11 +43,6 @@ body {
 	    align-items: center;
 	    display: flex;
 	    justify-content: space-between;
-	    // padding: 0 3.5em;
-
-	    div {
-	    	padding: 0 1.5em;
-	    }
 
 	    ul {
 	    	padding: 0 3.5em;
@@ -61,6 +71,10 @@ body {
 	 .primary_nav_item  {
 	    display: inline-block;
 	 }
+}
+
+.primary_nav_logo {
+	margin-top: 5px;
 }
 
 .main_nav_border {
@@ -122,6 +136,16 @@ body {
 
 
 
+.round_btn {
+	font: 100% $secondary-font;
+	font-weight: bold;
+	padding: 10px 20px;
+	border:3px solid $dark-blue;
+	border-radius: 60px;
+	text-transform: uppercase;
+}
+
+
 
 
 footer {
@@ -131,6 +155,93 @@ footer {
 
 
 // homepage grid
+
+.homepage_part01_grid {
+	display: grid;
+	grid-template-columns: 2fr 3fr 3fr 2fr;
+	grid-template-rows: 85vh auto;
+	align-items: center;
+	justify-items: center;
+
+	.homepage_bg_intro {
+	grid-column: 2/3;
+	justify-self: end;
+
+		.bg_first_header{
+			font-size: 5em;
+
+		}
+	}
+
+	.homepage_bg_logo {
+		grid-column: 3/4;
+	}
+	.shomepage_intro_svg {
+		grid-column: 1/-1;
+		grid-row-start: 2;
+	}
+}
+
+.homepage_part02_grid {
+	display: grid;
+	grid-template-columns: 2fr 3fr 3fr 2fr;
+	align-items: center;
+	justify-items: center;
+	height: 100vh;
+
+	.homepage_aboutme_intro {
+		grid-column: 1/-1;
+		text-align: center;
+
+		h2 {
+			font-size: 4.3em;
+			margin: 35px auto;
+			padding: 0;
+		}
+	}
+
+	.homepage_aboutme_button {
+		grid-column: 1/-1;
+		text-align: center;
+	}
+}
+
+.homepage_part03_grid {
+	display: grid;
+	grid-template-columns: 2fr 3fr 3fr 2fr;
+	align-items: center;
+	justify-items: center;
+	height: 90vh;
+
+	.homepage_work_intro_grid {
+		grid-column: 1/-1;
+		text-align: center;
+
+		display: grid;
+		grid-template-columns: 2fr 3fr;
+		margin: 0;
+		padding: 0;
+
+		.homepage_work_part2 {
+			grid-column: 2/3;
+			grid-row: 2;
+		}
+
+	}
+
+	.homepage_work_gallery_grid {
+		grid-column: 1/-1;
+		text-align: center;
+
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	.homepage_work_button {
+		grid-column: 1/-1;
+		text-align: center;
+	}
+}
 
 
 
