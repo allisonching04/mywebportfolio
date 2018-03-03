@@ -22,10 +22,17 @@ h2 {
 	margin: 0 auto;
 }
 
+h3, h4 {
+	font: 100% $secondary-font;
+}
 
+p {
+	font: 100% $secondary-font;
+}
 
 a {
 	color:$dark-blue;
+	font: 100% $secondary-font;
 	text-decoration: none;
 	cursor: pointer;
 }
@@ -88,19 +95,6 @@ a {
 	  display: block;
 	}
 
-	li:after {
-	  color: $dark-grey;
-	  content: '|';
-	  position: absolute;
-	  //top: 2.3em;
-	  right: -2.5em;
-	  z-index: 10;
-	  transform: rotate(13deg);
-	  -webkit-transform: rotate(13deg);
-	  -o-transform: rotate(13deg);
-	  -ms-transform: rotate(13deg);
-	}
-
 	li > a:after {
 	  content: '';
 	  position: absolute;
@@ -135,7 +129,6 @@ a {
 }
 
 
-
 .round_btn {
 	font: 100% $secondary-font;
 	font-weight: bold;
@@ -148,9 +141,6 @@ a {
 
 
 
-footer {
-	background: orange;
-}
 
 
 
@@ -187,7 +177,7 @@ footer {
 	grid-template-columns: 2fr 3fr 3fr 2fr;
 	align-items: center;
 	justify-items: center;
-	height: 100vh;
+	// height: 100vh;
 
 	.homepage_aboutme_intro {
 		grid-column: 1/-1;
@@ -211,7 +201,7 @@ footer {
 	grid-template-columns: 2fr 3fr 3fr 2fr;
 	align-items: center;
 	justify-items: center;
-	height: 90vh;
+	// height: 90vh;
 
 	.homepage_work_intro_grid {
 		grid-column: 1/-1;
@@ -228,21 +218,83 @@ footer {
 		}
 
 	}
+}
 
-	.homepage_work_gallery_grid {
-		grid-column: 1/-1;
-		text-align: center;
 
-		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
+.homepage_work_gallery_grid {
+	grid-column: 1/-1;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto 150px auto 150px;
+}
+
+.homepage_work_gallery_item {
+	background-color: $light-grey;
+}
+
+.homepage_work_gallery_title01 {
+	grid-column:1/-1;
+	grid-row: 1/2;
+}
+
+.web_gallery {
+	grid-row: 2/3;
+}
+
+.homepage_work_gallery_title01 {
+	grid-column:1/-1;
+	grid-row: 3/4;
+}
+
+.graphic_gallery {
+	grid-row: 4/5;
+}
+
+.homepage_work_button {
+	grid-column: 1/-1;
+	text-align: center;
+}
+
+
+
+// contact me 
+
+.homepage_part04_grid{
+	display: grid;
+	grid-template-columns:1fr 2fr 5fr 2fr 1fr;
+	align-items: center;
+	justify-items: center;
+
+	margin-bottom: 50px;
+
+	.bg_third_header {
+		grid-column: 3/4;
+	}
+	.bg_body_header {
+		grid-column: 3/4;
 	}
 
-	.homepage_work_button {
-		grid-column: 1/-1;
-		text-align: center;
+	.contactme_social_icon {
+		grid-column: 3/4;
+	}
+	.social_icon_flex {
+		display: flex;
+		justify-content:space-around;
 	}
 }
 
+footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: $dark-blue;
+	padding: 1em 2px;
+
+	p {
+		color: $light-grey;
+		margin: 0;
+	}
+}
 
 
 
