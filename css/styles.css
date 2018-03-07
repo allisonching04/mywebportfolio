@@ -289,6 +289,8 @@ a {
   .homepage_part04_grid .social_icon_flex, .contact_me_grid .social_icon_flex {
     display: flex;
     justify-content: center; }
+  .homepage_part04_grid .social_icon, .contact_me_grid .social_icon {
+    padding: 0 1em; }
 
 footer {
   display: flex;

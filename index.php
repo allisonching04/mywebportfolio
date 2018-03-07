@@ -15,13 +15,13 @@
 		<nav class="primary_nav main_nav_border">
 			<div class="primary_nav_flex">
 				<div class="primary_nav_logo" style="text-align: center;">
-					<a class="primary_nav_logo_link" href="index.html"><img class="sitelogo" src="img/sitelogo.png" alt="siteLogo"></a>
+					<a class="primary_nav_logo_link" href="index.php"><img class="sitelogo" src="img/sitelogo.png" alt="siteLogo"></a>
 				</div>
 				<ul class="primary_nav_ul primary_nav_effect">
-					<li class="primary_nav_item"><a class="primary_nav_item_link" href="index.html">Home</a></li>
-					<li class="primary_nav_item"><a class="primary_nav_item_link" href="web.html">Website</a></li>
-					<li class="primary_nav_item"><a class="primary_nav_item_link" href="graphic.html">Graphic</a></li>
-					<li class="primary_nav_item"><a class="primary_nav_item_link" href="about.html">About</a></li>
+					<li class="primary_nav_item"><a class="primary_nav_item_link" href="index.php">Home</a></li>
+					<li class="primary_nav_item"><a class="primary_nav_item_link" href="web.php">Website</a></li>
+					<li class="primary_nav_item"><a class="primary_nav_item_link" href="graphic.php">Graphic</a></li>
+					<li class="primary_nav_item"><a class="primary_nav_item_link" href="about.php">About</a></li>
 				</ul>
 			</div>
 			
@@ -65,7 +65,7 @@
 					</div>
 					
 					<div class="homepage_aboutme_button round_btn">
-						<a class="round_btn_link" href="about.html">About Me</a>
+						<a class="round_btn_link" href="about.php">About Me</a>
 					</div>
 				</div>
 				
