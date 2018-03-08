@@ -115,12 +115,12 @@
 					</div>
 
 					<div class="contact-form-container">
-						<form class="contact-form" action="contactform.php" method="post">
+						<form action="includes/contactform.php" method="post" class="contact-form">
 							<div class="field-container">
 						    <input type="text" class="input" name="name" placeholder="Name" />
 						  	</div>
 						  	<div class="field-container">
-						    	<input type="text" class="input" name="email" placeholder="Email" />
+						    	<input type="text" class="input" name="mail" placeholder="Email" />
 						  	</div>
 						  <div class="field-container">
 						    <textarea class="input text-area" name="message" placeholder="Your Message"></textarea>

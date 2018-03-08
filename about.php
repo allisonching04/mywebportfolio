@@ -70,6 +70,22 @@
 
 						<div class="social_icon twitter"><a class="social_icons" href="https://twitter.com/chingchinglcc"><img class="twitter_icon" src="img/twitter_icon.png" alt="myTwitter"></a></div>
 					</div>
+
+					<div class="contact-form-container">
+						<form action="includes/contactform.php" method="post" class="contact-form">
+							<div class="field-container">
+						    <input type="text" class="input" name="name" placeholder="Name" />
+						  	</div>
+						  	<div class="field-container">
+						    	<input type="text" class="input" name="mail" placeholder="Email" />
+						  	</div>
+						  <div class="field-container">
+						    <textarea class="input text-area" name="message" placeholder="Your Message"></textarea>
+						  </div>
+							<button type="submit" name="submit" class="btn round_btn">Say Hi!</button>
+						</form>
+					</div>
+					
 				</div>
 			</div>
 			
