@@ -15,6 +15,8 @@ $highlight-red: #DE1B1B;
 //   	box-sizing: border-box;
 // }
 
+* {box-sizing:border-box;}
+
 body {
 	padding:0;
 	margin:0;
@@ -147,6 +149,7 @@ a {
 	border:3px solid $dark-blue;
 	border-radius: 60px;
 	text-transform: uppercase;
+	cursor: pointer;
 }
 
 
@@ -265,7 +268,7 @@ a {
   	grid-gap: 10px;
 
   	width: 70vw;
-  	margin: 150px auto;
+  	margin: 50px auto;
 
 
   	.showcase_item{
@@ -361,7 +364,7 @@ a {
 .homepage_part04_grid, .contact_me_grid{
 	display: grid;
 	grid-template-columns:1fr 2fr 5fr 2fr 1fr;
-	grid-template-rows: 250px 250px;
+	grid-template-rows: 250px 500px;
 
 	.contact_empty_box01 {
 		grid-column: 1/2;
@@ -415,6 +418,89 @@ a {
 		padding: 0 1em;
 	}
 }
+
+.contact-form-container {
+
+
+	.contact-form {
+	  position: relative;
+	  width: 350px;
+	  margin: 20px auto;
+	  padding: 20px;
+	  background: $light-grey;
+	  
+
+	  &:before {
+	    content: '';
+	    position: absolute;
+	    top: -10px;
+	    left: 50%;
+	    display: block;
+	    width: 0;
+	    height: 0;
+	    margin-left: -10px;
+	    border-left: 10px solid transparent;
+	    border-bottom: 10px solid $light-grey;
+	    border-right: 10px solid transparent;
+	  }
+}
+
+
+	.field-container {
+	  margin-bottom: 30px;
+
+	  &:last-child {
+	    margin: 0;
+	  }
+
+	  &:after {
+	    content: "";
+	    display: block;
+	    width: 100%;
+	    height: 4px;
+	    margin-top: -1px;
+	    border-width: 0 1px 1px 1px;
+	    border-style: solid;
+	    border-color: $dark-grey;
+	  }
+
+	  &.is-focused:after {
+	    border-color: $highlight-red;
+	  }
+}
+
+	.input {
+	  width: 100%;
+	  margin: 0;
+	  padding: 0 6px;
+	  border: none;
+	  outline: none;
+	  background: transparent;
+	  font: 12px $secondary-font;
+	  color: $dark-grey;
+	}
+
+	.text-area {
+	  min-height: 38px;
+	  height: 38px;
+	  margin: 2px 0 3px;
+	  overflow-y: hidden;
+	  resize: none;
+	  -webkit-transition: height .1s;
+	  -moz-transition: height .1s;
+	  transition: height .1s;
+	}
+
+	::-webkit-input-placeholder { color: $light-grey; }
+	:-moz-placeholder { color: $light-grey; }
+	:-ms-placeholder { color: $light-grey;}
+
+	.round_btn:hover,.round_btn:active, .round_btn:focus {
+	border-color:  $highlight-red;
+	color:  $highlight-red;
+}
+}
+
 footer {
 	display: flex;
 	flex-direction: column;
