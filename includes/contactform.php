@@ -10,10 +10,10 @@
 
 	if(mail($to, $email_subject, $message, $headers)) {
 		echo "<h1>Thank You ! "." ".$name." I will contact you shortly</h1>";
-		// header("location: index.php");    
+		header("location: index.php");    
 	}else{
 		echo "Opps! Something went wrong!";
-		// header("location: index.php"); 
+		header("location: index.php"); 
 	}
 
     

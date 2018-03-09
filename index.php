@@ -14,9 +14,14 @@
 		
 		<nav class="primary_nav main_nav_border">
 			<div class="primary_nav_flex">
-				<div class="primary_nav_logo" style="text-align: center;">
+				<div class="primary_nav_logo moble-primary-nav" style="text-align: center;">
 					<a class="primary_nav_logo_link" href="index.php"><img class="sitelogo" src="img/sitelogo.png" alt="siteLogo"></a>
+
+					<a class="hamburger_menu"></a>
 				</div>
+
+
+
 				<ul class="primary_nav_ul primary_nav_effect">
 					<li class="primary_nav_item"><a class="primary_nav_item_link" href="index.php">Home</a></li>
 					<li class="primary_nav_item"><a class="primary_nav_item_link" href="web.php">Website</a></li>
@@ -106,7 +111,7 @@
 
 				<div class="contact_inform">
 					<h3 class="bg_body_header">
-						<a href="mailto:allisonchinglee@gmail.com" target="_top">allisonchinglee@gmail.come</a>
+						<a href="mailto:allisonchinglee@gmail.com" target="_top">contactme@chingchinglee.com</a>
 					</h3>
 					<div class="contactme_social_icon social_icon_flex">
 						<div class="social_icon ig"><a class="social_icons" href="https://www.instagram.com/ching2lcc/?hl=en"><img class="instagram_icon" src="img/instagram_icon.png" alt="myIG"></a></div>

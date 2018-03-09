@@ -29,7 +29,17 @@
 
 		<div class="innerpage_context">
 			<div class="innerpage_part1">
-				
+				<h2 class="innerpage_second_title">DESIGN &#38; </h2>
+				<h2 class="innerpage_second_title">DEVELOPMENT</h2>
+				<div class="body_gallery web_body_gallery">
+					<div class="showcase_item web_gallery_item web_item_01">The Reintroduction of Swift Fox</div>
+					<div class="showcase_item web_gallery_item web_item_02">Anti-Anorexia</div>
+					<div class="showcase_item web_gallery_item web_item_03">The History of Kimono</div>
+					<div class="showcase_item web_gallery_item web_item_04">LaBeat.ca</div>
+					<div class="showcase_item web_gallery_item web_item_05">Anti-Anorexia</div>
+					<div class="showcase_item web_gallery_item web_item_06">Food Guide</div>
+					<div class="showcase_item web_gallery_item web_item_07">Cat Pro</div>
+				</div>
 			</div>
 
 			<div class="empty_border innerpage_context_empty_box01"></div>	
@@ -41,7 +51,7 @@
 
 				<div class="contact_inform">
 					<h3 class="bg_body_header">
-						<a href="mailto:allisonchinglee@gmail.com" target="_top">allisonchinglee@gmail.come</a>
+						<a href="mailto:allisonchinglee@gmail.com" target="_top">contactme@chingchinglee.com</a>
 					</h3>
 					<div class="contactme_social_icon social_icon_flex">
 						<div class="social_icon ig"><a class="social_icons" href="https://www.instagram.com/ching2lcc/?hl=en"><img class="instagram_icon" src="img/instagram_icon.png" alt="myIG"></a></div>

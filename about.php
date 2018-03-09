@@ -63,7 +63,7 @@
 
 				<div class="contact_inform">
 					<h3 class="bg_body_header">
-						<a href="mailto:allisonchinglee@gmail.com" target="_top">allisonchinglee@gmail.come</a>
+						<a href="mailto:allisonchinglee@gmail.com" target="_top">contactme@chingchinglee.com</a>
 					</h3>
 					<div class="contactme_social_icon social_icon_flex">
 						<div class="social_icon ig"><a class="social_icons" href="https://www.instagram.com/ching2lcc/?hl=en"><img class="instagram_icon" src="img/instagram_icon.png" alt="myIG"></a></div>
