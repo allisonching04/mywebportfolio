@@ -32,7 +32,7 @@
 		</nav>
 
 		<div class="innerpage_context">
-			<div class="innerpage_part1">
+			<div class="innerpage_part1 innerpage_part1_graphic">
 				
 			</div>
 

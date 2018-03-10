@@ -33,17 +33,17 @@
 		</nav>
 
 		<div class="innerpage_context">
-			<div class="innerpage_part1">
+			<div class="innerpage_part1 innerpage_part1_web">
 				<h2 class="innerpage_second_title">DESIGN &#38; </h2>
 				<h2 class="innerpage_second_title">DEVELOPMENT</h2>
 				<div class="body_gallery web_body_gallery">
-					<div class="showcase_item web_gallery_item web_item_01">The Reintroduction of Swift Fox</div>
-					<div class="showcase_item web_gallery_item web_item_02">Anti-Anorexia</div>
-					<div class="showcase_item web_gallery_item web_item_03">The History of Kimono</div>
-					<div class="showcase_item web_gallery_item web_item_04">LaBeat.ca</div>
-					<div class="showcase_item web_gallery_item web_item_05">Anti-Anorexia</div>
-					<div class="showcase_item web_gallery_item web_item_06">Food Guide</div>
-					<div class="showcase_item web_gallery_item web_item_07">Cat Pro</div>
+					<div class="showcase_item web_gallery_item gallery_text web_item_01">The Reintroduction of Swift Fox</div>
+					<div class="showcase_item web_gallery_item gallery_text web_item_02">Anti-Anorexia</div>
+					<div class="showcase_item web_gallery_item gallery_text web_item_03">The History of Kimono</div>
+					<div class="showcase_item web_gallery_item gallery_text web_item_04">LaBeat.ca</div>
+					<div class="showcase_item web_gallery_item gallery_text web_item_05">Anti-Anorexia</div>
+					<div class="showcase_item web_gallery_item gallery_text web_item_06">Food Guide</div>
+					<div class="showcase_item web_gallery_item gallery_text web_item_07">Cat Pro</div>
 				</div>
 			</div>
 

@@ -190,7 +190,7 @@ a {
 
 .innerpage_context {
   display: grid;
-  grid-template-columns: 1fr 2fr 6fr 2fr 1fr;
+  grid-template-columns: 1fr 2fr 8fr 2fr 1fr;
   grid-template-rows: auto auto;
   margin: 0; }
 
@@ -209,11 +209,18 @@ a {
   justify-self: center;
   padding: 2.5em 5em;
   z-index: 99;
+  width: 100%;
   display: flex;
   flex-direction: column; }
   .innerpage_part1 .download_resume_btn {
     align-self: center;
     margin-top: 15vh; }
+
+.innpage_part1_about {
+  padding: 2.5em 5em; }
+
+.innerpage_part1_web, .innerpage_part1_graphic {
+  padding: 2.5em 1em; }
 
 .innerpage_context_empty_box03 {
   grid-column: 4/5;
@@ -426,9 +433,9 @@ footer {
 
   .homepage_part04_grid {
     display: block; } }
-@media only screen and (max-width: 650px) and (min-width: 300px) {
+@media only screen and (max-width: 650px) and (min-width: 320px) {
   .primary_nav {
-    border: 1px solid #A9A9A9; }
+    border-bottom: 1px solid #A9A9A9; }
 
   .primary_nav.moveBorder {
     border: none; }
@@ -464,7 +471,55 @@ footer {
     padding: 1.5em 1em;
     text-align: center; }
 
+  .homepage_moblie_grid_sm {
+    font-size: 3vw; }
+
+  .homepage_part01_grid.homepage_moblie_grid_sm {
+    margin-bottom: 0;
+    margin-top: 5em; }
+    .homepage_part01_grid.homepage_moblie_grid_sm .shomepage_intro_svg {
+      margin-top: 2em; }
+
+  .homepage_part02_grid .homepage_aboutme_intro {
+    align-self: start;
+    margin-top: 2em; }
+
+  .homepage_part02_grid {
+    grid-template-rows: auto;
+    height: auto; }
+
+  .innerpage_context {
+    font-size: 2vw; }
+
   .innerpage_part1 {
-    border: none; } }
+    border: none; }
+
+  .moblie_text_title {
+    font-size: 10em; }
+
+  .moblie_body_paragraph {
+    font-size: 2em; }
+
+  .innerpage_part1 .download_resume_btn {
+    margin-top: 5vh; }
+
+  .innpage_part1_about {
+    padding: 2.5em 1em; } }
+@media only screen and (max-width: 321px) and (min-width: 280px) {
+  .moblie_text_title {
+    font-size: 10em;
+    text-align: center; }
+
+  .moblie_body_paragraph {
+    font-size: 2em; }
+
+  .innerpage_part1 .download_resume_btn {
+    margin-top: 3vh; }
+
+  .contact-form-container .contact-form {
+    width: 270px; }
+
+  .innpage_part1_about {
+    padding: 2.5em 1em; } }
 
 /*# sourceMappingURL=styles.css.map */

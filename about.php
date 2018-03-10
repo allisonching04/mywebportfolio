@@ -31,11 +31,11 @@
 		</nav>
 
 		<div class="innerpage_context">
-			<div class="innerpage_part1">
-				<h2 class="innerpage_second_title">CHING</h2>
-				<h2 class="innerpage_second_title">CHING</h2>
-				<h2 class="innerpage_second_title">Lee</h2>
-				<div class="body_paragraph">
+			<div class="innerpage_part1 innpage_part1_about">
+				<h2 class="innerpage_second_title moblie_text_title">CHING</h2>
+				<h2 class="innerpage_second_title moblie_text_title">CHING</h2>
+				<h2 class="innerpage_second_title moblie_text_title">LEE</h2>
+				<div class="body_paragraph moblie_body_paragraph">
 					<p class="body_text">
 						I am Ching Ching Lee and I am a graphic designer as well as a web designer. I am currently completing the final year of my Bachelor of Fine Arts in New Media at the University of Lethbridge. My focus is on graphic design and web development. 
 

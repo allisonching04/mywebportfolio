@@ -34,7 +34,7 @@
 
 		<div class="primary_context">
 
-			<div class="homepage_part01_grid">
+			<div class="homepage_part01_grid homepage_moblie_grid_sm">
 				<div class="homepage_bg_intro typing_name">
 					<h1 class="bg_first_header1 typing_header">Hello&excl;</h1>
 					<h1 class="bg_first_header2 typing_header">I AM CHING<br>CHING.</h1>
@@ -55,10 +55,8 @@
 					
 				</div>
 			</div>
-				
-
-			
-			<div id="homepage_part02" class="homepage_part02_grid">
+						
+			<div id="homepage_part02" class="homepage_part02_grid homepage_moblie_grid_sm">
 				<div class="empty_border aboutme_empty_box01"></div>
 				<div class="empty_border aboutme_empty_bg_box"></div>
 				<div class="homepage_aboutme_intro">
@@ -79,7 +77,7 @@
 			</div>
 
 			<div class="homepage_part03_grid">
-				<div class="homepage_work_intro_grid">
+				<div class="homepage_work_intro_grid homepage_moblie_grid_sm">
 					<div class="empty_border intro_grid_empty_box01"></div>
 					<div class="empty_border intro_grid_empty_box02"></div>
 					<h2 class="bg_second_header homepage_work_part1">This is My Portfolio</h2>
@@ -87,7 +85,9 @@
 					<div class="empty_border intro_grid_empty_box03"></div>
 				</div>
 
-				<div class="main_gallery_grid">
+
+
+				<div class="main_gallery_grid homepage_moblie_grid_sm">
 					<div class="empty_border gallery_item">
 						<div class="empty_border gallery_item_showcase1 showcase_item"></div>
 						<div class="gallery_item_showcase2 showcase_item"></div>
@@ -101,7 +101,7 @@
 				</div>
 			</div>
 				
-			<div class="homepage_part04_grid">
+			<div class="homepage_part04_grid homepage_moblie_grid_sm">
 				<div class="empty_border contact_empty_box01"></div>
 				<div class="empty_border contact_empty_box02"></div>
 
