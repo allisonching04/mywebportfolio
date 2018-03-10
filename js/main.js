@@ -17,6 +17,13 @@ function init() {
         }
     });
 
+    $('.hamburger_menu').on("click", function() {
+      $(".primary_nav .primary_nav_ul").toggleClass("open");
+      console.log("clicked");
+      $(".primary_nav").toggleClass("moveBorder");
+      console.log("moveBorder");
+    });
+
       
   $(".input").focus(function() {
     $(this).parent(".field-container").addClass("is-focused");

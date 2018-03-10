@@ -23,10 +23,10 @@
 
 
 				<ul class="primary_nav_ul primary_nav_effect">
-					<li class="primary_nav_item"><a class="primary_nav_item_link" href="index.php">Home</a></li>
-					<li class="primary_nav_item"><a class="primary_nav_item_link" href="web.php">Website</a></li>
-					<li class="primary_nav_item"><a class="primary_nav_item_link" href="graphic.php">Graphic</a></li>
-					<li class="primary_nav_item"><a class="primary_nav_item_link" href="about.php">About</a></li>
+					<li class="primary_nav_item primary_nav_current moblie_nav_item"><a class="primary_nav_item_link" href="index.php">Home</a></li>
+					<li class="primary_nav_item moblie_nav_item"><a class="primary_nav_item_link moblie_nav_item" href="web.php">Website</a></li>
+					<li class="primary_nav_item moblie_nav_item"><a class="primary_nav_item_link moblie_nav_item" href="graphic.php">Graphic</a></li>
+					<li class="primary_nav_item moblie_nav_item"><a class="primary_nav_item_link" href="about.php">About</a></li>
 				</ul>
 			</div>
 			
