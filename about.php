@@ -30,7 +30,7 @@
 			
 		</nav>
 
-		<div class="innerpage_context">
+		<div class="innerpage_context innerpage_about">
 			<div class="innerpage_part1 innpage_part1_about">
 				<h2 class="innerpage_second_title moblie_text_title">CHING</h2>
 				<h2 class="innerpage_second_title moblie_text_title">CHING</h2>
@@ -98,7 +98,6 @@
 		</div>
 
 		<footer>
-			<div class="footer_logo"><img class="twitter_icon" src="img/footer_white_logo.png" alt="siteLogo"></div>
 			<p class="footer_copyright">&copy; Ching Ching Lee 2018</p>
 		</footer>
 	</div>

@@ -144,7 +144,6 @@
 		</div>
 
 		<footer>
-			<div class="footer_logo"><img class="twitter_icon" src="img/footer_white_logo.png" alt="siteLogo"></div>
 			<p class="footer_copyright">&copy; Ching Ching Lee 2018</p>
 		</footer>
 	</div>

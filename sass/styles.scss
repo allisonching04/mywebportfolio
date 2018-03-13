@@ -1,7 +1,7 @@
 $primary-font: 'Merriweather', serif;
 $secondary-font: 'Lato', sans-serif;
 
-$light-grey: #EFEFEF;
+$light-grey: #DFDCE3;
 $dark-grey: #A9A9A9;
 $dark-blue: #1A2930;
 $highlight-red: #DE1B1B;
@@ -44,17 +44,19 @@ h3 {
 
 p {
 	font: 100% $secondary-font;
+	font-weight: 100;
 }
 
 a {
 	color:$dark-blue;
 	font: 100% $secondary-font;
+	font-weight: 300;
 	text-decoration: none;
 	cursor: pointer;
 }
 
 .empty_border, .border_area {
-	border: 1px solid $dark-grey;
+	border: 1px solid $light-grey;
 }
 
 .page_container {
@@ -64,7 +66,7 @@ a {
 }
 // navbar
 .primary_nav {
-	border-bottom: 1px solid $dark-grey;
+	border-bottom: 1px solid $light-grey;
 
 	// .primary_nav_flex {
 	//     align-items: center;
@@ -278,7 +280,7 @@ a {
 }
 
 //entered website layout 
-.innerpage_context {
+.innerpage_about {
 	display: grid;
 	grid-template-columns: 1fr 2fr 8fr 2fr 1fr;
 	grid-template-rows: auto auto;
@@ -297,7 +299,7 @@ a {
 .innerpage_part1 {
 	grid-column: 3/4;
 	grid-row:1/2;
-	border-top: 1px solid $dark-grey;
+	border-top: 1px solid $light-grey;
 
 	justify-self: center;
 	padding:2.5em 5em;
@@ -336,7 +338,7 @@ a {
 	grid-column: 3/4;
 	grid-row: 2/3;
 	border: none;
-	border-bottom: 1px solid $dark-grey;
+	border-bottom: 1px solid $light-grey;
 	margin: 0;
 }
 
@@ -412,7 +414,8 @@ a {
 	  width: 350px;
 	  margin: 20px auto;
 	  padding: 20px;
-	  background: $light-grey;
+	  background: #efefef;
+	  border-radius: 5px;
 	  
 
 	  &:before {
@@ -425,7 +428,7 @@ a {
 	    height: 0;
 	    margin-left: -10px;
 	    border-left: 10px solid transparent;
-	    border-bottom: 10px solid $light-grey;
+	    border-bottom: 10px solid #efefef;
 	    border-right: 10px solid transparent;
 	  }
 }
@@ -540,6 +543,7 @@ footer {
 		li > a:hover {
 		  background-color: transparent;
 		  color: #111;
+		  font-weight: 500;
 		}
 
 		li > a:hover::after {
@@ -606,7 +610,7 @@ footer {
 
 @media only screen and (max-width: 650px) and (min-width: 320px) {
 	.primary_nav {
-		border-bottom: 1px solid $dark-grey;
+		border-bottom: 1px solid $light-grey;
 	}
 	.primary_nav.moveBorder {
 		border:none;
@@ -645,7 +649,7 @@ footer {
 	}
 	.primary_nav .primary_nav_ul .primary_nav_item {padding:0;}
 	.primary_nav .primary_nav_ul .moblie_nav_item .primary_nav_item_link {
-		border: 1px solid $dark-grey;
+		border: 1px solid $light-grey;
 		display: block;
 		margin: 0;
 		padding: 1.5em 1em;

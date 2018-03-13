@@ -32,18 +32,42 @@
 			
 		</nav>
 
-		<div class="innerpage_context">
+		<div class="innerpage_context innerpage_gallery">
 			<div class="innerpage_part1 innerpage_part1_web">
 				<h2 class="innerpage_second_title">DESIGN &#38; </h2>
 				<h2 class="innerpage_second_title">DEVELOPMENT</h2>
 				<div class="body_gallery web_body_gallery">
-					<div class="showcase_item web_gallery_item gallery_text web_item_01">The Reintroduction of Swift Fox</div>
-					<div class="showcase_item web_gallery_item gallery_text web_item_02">Anti-Anorexia</div>
-					<div class="showcase_item web_gallery_item gallery_text web_item_03">The History of Kimono</div>
-					<div class="showcase_item web_gallery_item gallery_text web_item_04">LaBeat.ca</div>
-					<div class="showcase_item web_gallery_item gallery_text web_item_05">Anti-Anorexia</div>
-					<div class="showcase_item web_gallery_item gallery_text web_item_06">Food Guide</div>
-					<div class="showcase_item web_gallery_item gallery_text web_item_07">Cat Pro</div>
+					<div class="web_gallery_item gallery_text web_item_01">
+						<div class="showcase_item  web_item_images01"></div>
+						<p class="item_text item_text_right">The Reintroduction of Swift Fox</p>
+					</div>
+
+					<div class="web_gallery_item gallery_text web_item_02">
+						<div class="showcase_item  web_item_images02"></div>
+						<p class="item_text">A N A</p>
+					</div>
+
+					<div class="web_gallery_item gallery_text web_item_03">
+						<div class="showcase_item  web_item_images03"></div>
+						<p class="item_text item_text_right">The History of Kimono</p>
+					</div>
+
+					<div class="web_gallery_item gallery_text web_item_04">
+						<div class="showcase_item  web_item_images04"></div>
+						<p class="item_text">LaBeat.ca</p>
+					</div>
+
+
+					<div class="web_gallery_item gallery_text web_item_05">
+						<div class="showcase_item  web_item_images05"></div>
+						<p class="item_text item_text_right">Food Guide</p>
+					</div>
+
+					<div class="web_gallery_item gallery_text web_item_06">
+						<div class="showcase_item  web_item_images06"></div>
+						<p class="item_text">Cat Pro</p>
+					</div>
+
 				</div>
 			</div>
 
@@ -88,7 +112,6 @@
 		</div>
 
 		<footer>
-			<div class="footer_logo"><img class="twitter_icon" src="img/footer_white_logo.png" alt="siteLogo"></div>
 			<p class="footer_copyright">&copy; Ching Ching Lee 2018</p>
 		</footer>
 	</div>

@@ -11,6 +11,7 @@
 
 	<div class="page_container">
 		
+		
 		<nav class="primary_nav main_nav_border">
 			<div class="primary_nav_flex">
 				<div class="primary_nav_logo moble-primary-nav" style="text-align: center;">
@@ -31,9 +32,19 @@
 			
 		</nav>
 
-		<div class="innerpage_context">
-			<div class="innerpage_part1 innerpage_part1_graphic">
-				
+		<div class="innerpage_context innerpage_gallery">
+			<div class="innerpage_part1 innerpage_part1_web">
+				<h2 class="innerpage_second_title">GRAPHIC &#38; </h2>
+				<h2 class="innerpage_second_title">DESIGN</h2>
+				<div class="body_gallery web_body_gallery">
+					<!-- <div class="showcase_item web_gallery_item gallery_text web_item_01">The Reintroduction of Swift Fox</div>
+					<div class="showcase_item web_gallery_item gallery_text web_item_02">Anti-Anorexia</div>
+					<div class="showcase_item web_gallery_item gallery_text web_item_03">The History of Kimono</div>
+					<div class="showcase_item web_gallery_item gallery_text web_item_04">LaBeat.ca</div>
+					<div class="showcase_item web_gallery_item gallery_text web_item_05">Anti-Anorexia</div>
+					<div class="showcase_item web_gallery_item gallery_text web_item_06">Food Guide</div>
+					<div class="showcase_item web_gallery_item gallery_text web_item_07">Cat Pro</div> -->
+				</div>
 			</div>
 
 			<div class="empty_border innerpage_context_empty_box01"></div>	
@@ -67,7 +78,7 @@
 							<button type="submit" name="submit" class="btn round_btn">Say Hi!</button>
 						</form>
 					</div>
-					
+
 				</div>
 			</div>
 			
@@ -77,7 +88,6 @@
 		</div>
 
 		<footer>
-			<div class="footer_logo"><img class="twitter_icon" src="img/footer_white_logo.png" alt="siteLogo"></div>
 			<p class="footer_copyright">&copy; Ching Ching Lee 2018</p>
 		</footer>
 	</div>
