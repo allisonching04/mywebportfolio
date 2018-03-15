@@ -299,7 +299,7 @@ a {
 .innerpage_part1 {
 	grid-column: 3/4;
 	grid-row:1/2;
-	border-top: 1px solid $light-grey;
+	//border-top: 1px solid $light-grey;
 
 	justify-self: center;
 	padding:2.5em 5em;
@@ -340,6 +340,8 @@ a {
 	border: none;
 	border-bottom: 1px solid $light-grey;
 	margin: 0;
+	border-left: 1px solid $light-grey;
+	border-right: 1px solid $light-grey;
 }
 
 
@@ -348,6 +350,7 @@ a {
 	display: grid;
 	grid-template-columns:1fr 2fr 5fr 2fr 1fr;
 	grid-template-rows: 250px 500px;
+
 
 	.contact_empty_box01 {
 		grid-column: 1/2;

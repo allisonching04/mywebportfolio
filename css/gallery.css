@@ -1,6 +1,6 @@
 .innerpage_gallery {
   display: grid;
-  grid-template-columns: 1fr 1fr 10fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 12fr 1fr 1fr;
   grid-template-rows: auto auto;
   margin: 0; }
 
@@ -15,7 +15,8 @@
 .innerpage_part1 {
   grid-column: 3/4;
   grid-row: 1/2;
-  border: 1px solid #EFEFEF;
+  border-left: 1px solid #DFDCE3;
+  border-right: 1px solid #DFDCE3;
   justify-self: center;
   padding: 2.5em 5em;
   z-index: 99;
@@ -26,33 +27,93 @@
     align-self: center;
     margin-top: 15vh; }
 
-.item_text {
-  font-size: 1.15em;
-  font-weight: 300; }
-
-.item_text_right {
-  float: right; }
-
 .body_gallery {
   margin-top: 50px;
   font: 100% "Lato", sans-serif;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 3fr 1fr;
   grid-auto-rows: auto;
-  grid-auto-flow: row dense;
-  grid-gap: 10px; }
+  grid-gap: 3em 1em;
+  grid-auto-flow: row dense; }
+
+.web_item_01 {
+  grid-column: 2/-1;
+  grid-row: 1; }
+
+.web_item_02 {
+  grid-column: 1/3;
+  grid-row: 2; }
+
+.web_item_03 {
+  grid-column: 2/-1;
+  grid-row: 3; }
+
+.web_item_04 {
+  grid-column: 1/3;
+  grid-row: 4; }
+
+.web_item_05 {
+  grid-column: 2/-1;
+  grid-row: 5; }
+
+.web_gallery_item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 1fr 1fr; }
 
 .web_item_images01 {
-  background-image: url(../img/webgallery/fox_web_show.png);
+  margin-left: 30px;
+  grid-column: 1/-1;
+  grid-row: 1;
+  background-image: url(../img/webgallery/fox/fox_featured.png);
   background-position: bottom;
   height: 400px; }
 
-.web_item_02 {
-  background-color: #A9A9A9; }
-
-.web_item_04 {
-  background-image: url(../img/webgallery/fox_web_show.png);
+.web_item_images02 {
+  grid-column: 1/-1;
+  grid-row: 1;
+  margin-right: 30px;
+  background-color: #A9A9A9;
   height: 400px; }
+
+.web_item_images03 {
+  grid-column: 1/-1;
+  grid-row: 1;
+  margin-left: 30px;
+  background-image: url(../img/webgallery/kimono/kimono_featured.jpg);
+  background-position: center;
+  height: 400px; }
+
+.web_item_images04 {
+  grid-column: 1/-1;
+  grid-row: 1;
+  margin-right: 30px;
+  background-image: url(../img/webgallery/foodApp/foodapp_featured.png);
+  height: 400px; }
+
+.web_item_images05 {
+  grid-column: 1/-1;
+  grid-row: 1;
+  margin-left: 30px;
+  background-image: url(../img/webgallery/catpro/catpro_featured.png);
+  background-position: center;
+  height: 400px; }
+
+.item_text_right {
+  grid-column: 1/3; }
+
+.item_text_left {
+  grid-column: 4/-1; }
+
+.item_text {
+  grid-row: 1;
+  align-self: end;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.15em;
+  background-color: #1A2930;
+  color: white;
+  font-weight: 700;
+  padding: 0 20px; }
 
 @media only screen and (max-width: 700px) {
   .body_gallery {

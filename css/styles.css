@@ -207,7 +207,6 @@ a {
 .innerpage_part1 {
   grid-column: 3/4;
   grid-row: 1/2;
-  border-top: 1px solid #DFDCE3;
   justify-self: center;
   padding: 2.5em 5em;
   z-index: 99;
@@ -237,7 +236,9 @@ a {
   grid-row: 2/3;
   border: none;
   border-bottom: 1px solid #DFDCE3;
-  margin: 0; }
+  margin: 0;
+  border-left: 1px solid #DFDCE3;
+  border-right: 1px solid #DFDCE3; }
 
 .homepage_part04_grid, .contact_me_grid {
   display: grid;

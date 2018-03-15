@@ -37,44 +37,49 @@
 				<h2 class="innerpage_second_title">DESIGN &#38; </h2>
 				<h2 class="innerpage_second_title">DEVELOPMENT</h2>
 				<div class="body_gallery web_body_gallery">
-					<div class="web_gallery_item gallery_text web_item_01">
-						<div class="showcase_item  web_item_images01"></div>
-						<p class="item_text item_text_right">The Reintroduction of Swift Fox</p>
-					</div>
+					
+					<a class="webPage fox_webPage web_item_01" href="webPage/fox.php">
+						<div class="web_gallery_item gallery_text">
+							<div class="showcase_item  web_item_images01"></div>
+							<p class="item_text item_text_right">CSS Animation: Swift Fox</p>
+						</div>
+					</a>
 
-					<div class="web_gallery_item gallery_text web_item_02">
-						<div class="showcase_item  web_item_images02"></div>
-						<p class="item_text">A N A</p>
-					</div>
+					<a class="webPage fox_webPage web_item_01 web_item_02" href="webPage/ana.php">
+						<div class="web_gallery_item gallery_text">
+							<div class="showcase_item  web_item_images02"></div>
+							<p class="item_text item_text_left">A N A</p>
+						</div>
+					</a>
+					
+					<a class="webPage fox_webPage web_item_01 web_item_03" href="webPage/kimono.php">
+						<div class="web_gallery_item gallery_text">
+							<div class="showcase_item  web_item_images03"></div>
+							<p class="item_text item_text_right">The History of Kimono</p>
+						</div>
+					</a>
+					
+					<a class="webPage fox_webPage web_item_01 web_item_04" href="webPage/foodapp.php">
+						<div class="web_gallery_item gallery_text web_item_04">
+							<div class="showcase_item  web_item_images04"></div>
+							<p class="item_text item_text_left">Food Guide</p>
+						</div>
+					</a>
 
-					<div class="web_gallery_item gallery_text web_item_03">
-						<div class="showcase_item  web_item_images03"></div>
-						<p class="item_text item_text_right">The History of Kimono</p>
-					</div>
-
-					<div class="web_gallery_item gallery_text web_item_04">
-						<div class="showcase_item  web_item_images04"></div>
-						<p class="item_text">LaBeat.ca</p>
-					</div>
-
-
-					<div class="web_gallery_item gallery_text web_item_05">
-						<div class="showcase_item  web_item_images05"></div>
-						<p class="item_text item_text_right">Food Guide</p>
-					</div>
-
-					<div class="web_gallery_item gallery_text web_item_06">
-						<div class="showcase_item  web_item_images06"></div>
-						<p class="item_text">Cat Pro</p>
-					</div>
+					<a class="webPage fox_webPage web_item_01 web_item_05" href="webPage/catpro.php">
+						<div class="web_gallery_item gallery_text web_item_05">
+							<div class="showcase_item  web_item_images05"></div>
+							<p class="item_text item_text_right">Cat Pro</p>
+						</div>
+					</a>
 
 				</div>
 			</div>
 
-			<div class="empty_border innerpage_context_empty_box01"></div>	
-			<div class="empty_border innerpage_context_empty_box02"></div>	
+			<div class="innerpage_context_empty_box01"></div>	
+			<div class="innerpage_context_empty_box02"></div>	
 			
-			<div class="homepage_part04_grid contact_me_grid empty_border">
+			<div class="homepage_part04_grid contact_me_grid ">
 
 				<h2 class="contactme_header">Contact Me</h2>
 
@@ -106,8 +111,8 @@
 				</div>
 			</div>
 			
-			<div class="empty_border innerpage_context_empty_box03"></div>	
-			<div class="empty_border innerpage_context_empty_box04"></div>	
+			<div class="innerpage_context_empty_box03"></div>	
+			<div class="innerpage_context_empty_box04"></div>	
 				
 		</div>
 

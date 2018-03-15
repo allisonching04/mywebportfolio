@@ -47,10 +47,10 @@
 				</div>
 			</div>
 
-			<div class="empty_border innerpage_context_empty_box01"></div>	
-			<div class="empty_border innerpage_context_empty_box02"></div>	
+			<div class="innerpage_context_empty_box01"></div>	
+			<div class="innerpage_context_empty_box02"></div>	
 			
-			<div class="homepage_part04_grid contact_me_grid empty_border">
+			<div class="homepage_part04_grid contact_me_grid">
 
 				<h2 class="contactme_header">Contact Me</h2>
 
@@ -82,8 +82,8 @@
 				</div>
 			</div>
 			
-			<div class="empty_border innerpage_context_empty_box03"></div>	
-			<div class="empty_border innerpage_context_empty_box04"></div>	
+			<div class="innerpage_context_empty_box03"></div>	
+			<div class="innerpage_context_empty_box04"></div>	
 				
 		</div>
 
