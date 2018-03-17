@@ -126,6 +126,57 @@ img {width: 100%}
   	background-position: center;
   	height: 400px
 }
+.graphic_item_01 {
+	grid-column: 2/-1;
+	grid-row:1;
+}
+
+.graphic_item_02 {
+	grid-column: 1/3;
+	grid-row: 2;
+}
+
+.graphic_item_03 {
+	grid-column: 2/-1;
+	grid-row:3 ;
+}
+.graphic_item_04 {
+	grid-column: 1/3;
+	grid-row: 4;
+}
+
+.graphic_item_images01 {
+	grid-column: 1/-1;
+	grid-row: 1;
+	margin-left: 30px;
+	background-image: url(../img/graphic/glasses/glasses_featured.png);
+  	background-position: center;
+  	height: 400px
+}
+.graphic_item_images02{
+	grid-column: 1/-1;
+	grid-row: 1;
+	margin-right: 30px;
+  	background-image: url(../img/graphic/foodIcon/foodIcon_featured.png);
+  	background-position: bottom;
+  	height: 400px
+}
+.graphic_item_images03{
+	grid-column: 1/-1;
+	grid-row: 1;
+	margin-left: 30px;
+	background-image: url(../img/graphic/flatDesign/flat_featured.png);
+  	height: 400px
+}
+.graphic_item_images04{
+	grid-column: 1/-1;
+	grid-row: 1;
+	margin-left: 30px;
+	background-image: url(../img/graphic/bobby/bobby4in1.jpg);
+  	height: 400px
+}
+
+
 .item_text_right {grid-column: 1/3;}
 .item_text_left {grid-column: 4/-1;}
 .item_text {
@@ -195,13 +246,11 @@ img {width: 100%}
 	padding: 2em 7em;
 }
 
-@media only screen and (max-width: 700px) {
-    .body_gallery {
+
+@media only screen and (max-width: 800px) {
+	   .body_gallery {
 		grid-template-columns: 1fr;
 	}
-}
-
-@media only screen and (max-width: 700px) {
 	.homepage_part01_grid {
 		display: flex;
 		flex-direction: column;
@@ -231,10 +280,20 @@ img {width: 100%}
 	.homepage_part04_grid {
 		display: block;
 	}
+	.body_gallery .web_gallery_item .showcase_item { margin:0 !important;}
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 801px) {
+	.portfolio_paragraph {padding: 0;}
 }
 
 @media only screen and (max-width: 650px) and (min-width: 300px) {
 	.gallery_text {font-size: 8vw;}
+	.item_text {
+	    height: auto;
+	    font-size: 1.15em;
+	    padding: 0.2em;
+	}
 }
 
 
