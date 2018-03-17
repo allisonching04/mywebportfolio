@@ -1,36 +1,19 @@
+<?php
+	$this_page = "home";
+	$page_title = "Home";
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>Ching Ching | Home</title>
-	<link rel="shortcut icon" type="image/x-icon" href="#"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<?php include "includes/head.php"; ?>
 </head>
 <body>
 
 	<div class="page_container">
 		
 		
-		<nav class="primary_nav main_nav_border">
-			<div class="primary_nav_flex">
-				<div class="primary_nav_logo moble-primary-nav" style="text-align: center;">
-					<a class="primary_nav_logo_link" href="index.php"><img class="sitelogo" src="img/sitelogo.png" alt="siteLogo"></a>
-
-					<a class="hamburger_menu"></a>
-				</div>
-
-
-
-				<ul class="primary_nav_ul primary_nav_effect">
-					<li class="primary_nav_item primary_nav_current moblie_nav_item"><a class="primary_nav_item_link" href="index.php">Home</a></li>
-					<li class="primary_nav_item moblie_nav_item"><a class="primary_nav_item_link moblie_nav_item" href="web.php">Website</a></li>
-					<li class="primary_nav_item moblie_nav_item"><a class="primary_nav_item_link moblie_nav_item" href="graphic.php">Graphic</a></li>
-					<li class="primary_nav_item moblie_nav_item"><a class="primary_nav_item_link" href="about.php">About</a></li>
-				</ul>
-			</div>
-			
-		</nav>
+		<?php include "includes/nav.php"; ?>
 
 		<div class="primary_context">
 
@@ -143,9 +126,7 @@
 				
 		</div>
 
-		<footer>
-			<p class="footer_copyright">&copy; Ching Ching Lee 2018</p>
-		</footer>
+		<?php include "includes/footer.php"; ?>
 	</div>
 
 	<script type="text/javascript" src="js/jquery-3.3.1.js"></script>

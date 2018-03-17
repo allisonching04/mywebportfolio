@@ -1,6 +1,7 @@
 <?php
 	$this_page = "web";
-	$page_title = "Web Design";
+	$page_title = "Swift Fox";
+	$portfolio_title = "The Reintroduction of<br>Swift Fox";
 ?>
 
 <!DOCTYPE html>
@@ -13,53 +14,35 @@
 	<div class="page_container">
 		<?php include "includes/nav.php"; ?>
 
-		<div class="innerpage_context innerpage_gallery">
-			<div class="innerpage_part1 innerpage_part1_web">
-				<h2 class="innerpage_second_title">DESIGN &#38; </h2>
-				<h2 class="innerpage_second_title">DEVELOPMENT</h2>
-				<div class="body_gallery web_body_gallery">
-					
-					<a class="webPage fox_webPage web_item_01" href="fox.php">
-						<div class="web_gallery_item gallery_text">
-							<div class="showcase_item  web_item_images01"></div>
-							<p class="item_text item_text_right">CSS Animation: Swift Fox</p>
-						</div>
-					</a>
-
-					<a class="webPage fox_webPage web_item_01 web_item_02" href="ana.php">
-						<div class="web_gallery_item gallery_text">
-							<div class="showcase_item  web_item_images02"></div>
-							<p class="item_text item_text_left">A N A</p>
-						</div>
-					</a>
-					
-					<a class="webPage fox_webPage web_item_01 web_item_03" href="kimono.php">
-						<div class="web_gallery_item gallery_text">
-							<div class="showcase_item  web_item_images03"></div>
-							<p class="item_text item_text_right">The History of Kimono</p>
-						</div>
-					</a>
-					
-					<a class="webPage fox_webPage web_item_01 web_item_04" href="foodapp.php">
-						<div class="web_gallery_item gallery_text web_item_04">
-							<div class="showcase_item  web_item_images04"></div>
-							<p class="item_text item_text_left">Food Guide</p>
-						</div>
-					</a>
-
-					<a class="webPage fox_webPage web_item_01 web_item_05" href="catpro.php">
-						<div class="web_gallery_item gallery_text web_item_05">
-							<div class="showcase_item  web_item_images05"></div>
-							<p class="item_text item_text_right">Cat Pro</p>
-						</div>
-					</a>
-
-				</div>
+	<div class="innerpage_context innerpage_gallery">
+		<div class="innerpage_web_detail">
+			<?php include "includes/portfolio.php"; ?>
+			<img class="portfolio_image_bg portfolio_image_fox" src="img/webgallery/fox/fox_threeinone.png">
+			<div class="portfolio_paragraph body_paragraph moblie_body_paragraph">
+				<p class="body_text portfolio_text">
+					Lorem ipsum dolor sit amet, mauris gravida vitae, integer eget nec auctor nulla, laoreet orci ligula nulla aliquam ac justo, integer massa. Id euismod proin nulla posuere magna, imperdiet nec. Laoreet nisl diam praesentium. Id nibh, suscipit hac nec, ipsum omnis mauris arcu consectetuer sed adipiscing, leo lorem ultrices tristique penatibus. Ut pellentesque nonummy eros, velit sit risus sapien, eu nunc urna nunc. Nisl facilisis et lectus. Accumsan vel.
+				</p>
+				<h3 class="portfolio_section_title">Skills &colon;</h3>
+				<ul class="body_text portfolio_text portfolio_skill_list">
+					<li class="skill_list_detail">Adobe XD CC</li>
+					<li class="skill_list_detail">Adobe Illustrator CC</li>
+					<li class="skill_list_detail">Adobe Photoshop CC</li>
+					<li class="skill_list_detail">JQuery</li>
+					<li class="skill_list_detail">HTML</li>
+					<li class="skill_list_detail">UI &amp; UX</li>
+					<li class="skill_list_detail">CSS</li>
+					<li class="skill_list_detail">CSS Animation</li>
+					<li class="skill_list_detail">GreenSock</li>
+					<li class="skill_list_detail">Scroll Magic</li>
+				</ul>
 			</div>
+			<a class="body_text portfolio_text portfolio_link" href="chingchingleefox.atwebpages.com">Check it Online</a>
+			
+		</div>
 
-			<div class="innerpage_context_empty_box01"></div>	
-			<div class="innerpage_context_empty_box02"></div>	
-			<div class="homepage_part04_grid contact_me_grid">
+		<div class="innerpage_context_empty_box01"></div>	
+		<div class="innerpage_context_empty_box02"></div>	
+		<div class="homepage_part04_grid contact_me_grid">
 		<h2 class="contactme_header">Contact Me</h2>
 		<div class="contact_inform">
 				<h3 class="bg_body_header">

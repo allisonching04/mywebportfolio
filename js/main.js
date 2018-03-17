@@ -6,23 +6,14 @@ function init() {
 	console.log('jq is ready');
 
 	// highlight current page
-	var url = window.location.href;
-    var activePage = url;
-    $('.primary_nav_item a').each(function () {
-        var linkPage = this.href;
+	
 
-        if (activePage == linkPage) {
-            $(this).closest("li").addClass("primary_nav_current");
-            
-        }
-    });
-
-    $('.hamburger_menu').on("click", function() {
-      $(".primary_nav .primary_nav_ul").toggleClass("open");
-      console.log("clicked");
-      $(".primary_nav").toggleClass("moveBorder");
-      console.log("moveBorder");
-    });
+  $('.hamburger_menu').on("click", function() {
+    $(".primary_nav .primary_nav_ul").toggleClass("open");
+    console.log("clicked");
+    $(".primary_nav").toggleClass("moveBorder");
+    console.log("moveBorder");
+  });
 
       
   $(".input").focus(function() {
