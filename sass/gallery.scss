@@ -7,6 +7,7 @@ $dark-blue: #1A2930;
 $highlight-red: #DE1B1B;
 
 img {width: 100%}
+.bold_body_text { font-weight: 900;}
 
 .innerpage_gallery {
 	display: grid;
@@ -98,7 +99,8 @@ img {width: 100%}
 	grid-column: 1/-1;
 	grid-row: 1;
 	margin-right: 30px;
-  	background-color: $dark-grey;
+  	background-image: url(../img/webgallery/ana/ana_featured.png);
+  	background-position: bottom;
   	height: 400px
 }
 .web_item_images03{
@@ -162,7 +164,7 @@ img {width: 100%}
 	&:hover{
 	opacity: 0.8;
 	padding: 3px 15px;
-	transition: all .5s ease-in-out;
+	transition: all .1s ease-in-out;
 	}
 }
 .portfolio_section_title {
@@ -183,7 +185,9 @@ img {width: 100%}
 	padding: 0;
 }
 
-
+.portfolio_center_text{
+	padding: 1em 3em 1.5em 3em;
+}
 
 .portfolio_image_fox {padding:0 2em;}
 
@@ -232,3 +236,5 @@ img {width: 100%}
 @media only screen and (max-width: 650px) and (min-width: 300px) {
 	.gallery_text {font-size: 8vw;}
 }
+
+

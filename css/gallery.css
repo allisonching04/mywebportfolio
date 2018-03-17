@@ -1,6 +1,9 @@
 img {
   width: 100%; }
 
+.bold_body_text {
+  font-weight: 900; }
+
 .innerpage_gallery {
   display: grid;
   grid-template-columns: 1fr 1fr 12fr 1fr 1fr;
@@ -75,7 +78,8 @@ img {
   grid-column: 1/-1;
   grid-row: 1;
   margin-right: 30px;
-  background-color: #A9A9A9;
+  background-image: url(../img/webgallery/ana/ana_featured.png);
+  background-position: bottom;
   height: 400px; }
 
 .web_item_images03 {
@@ -138,7 +142,7 @@ img {
   .portfolio_link:hover {
     opacity: 0.8;
     padding: 3px 15px;
-    transition: all .5s ease-in-out; }
+    transition: all .1s ease-in-out; }
 
 .portfolio_section_title {
   font-weight: 700;
@@ -156,6 +160,9 @@ img {
   list-style: none;
   font: 100% "Lato", sans-serif;
   padding: 0; }
+
+.portfolio_center_text {
+  padding: 1em 3em 1.5em 3em; }
 
 .portfolio_image_fox {
   padding: 0 2em; }

@@ -50,9 +50,10 @@
 						<h2 class="bg_second_header hhomepage_aboutme_intro_flex">Web Designer</h2>
 					</div>
 					
-					<div class="homepage_aboutme_button round_btn">
+<!-- 					<div class="homepage_aboutme_button round_btn">
 						<a class="round_btn_link" href="about.php">About Me</a>
-					</div>
+					</div> -->
+					<a class="homepage_aboutme_button round_btn_link round_btn" href="about.php">About Me</a>
 				</div>
 				
 
@@ -63,15 +64,23 @@
 				<div class="homepage_work_intro_grid homepage_moblie_grid_sm">
 					<div class="empty_border intro_grid_empty_box01"></div>
 					<div class="empty_border intro_grid_empty_box02"></div>
-					<h2 class="bg_second_header homepage_work_part1">This is My Portfolio</h2>
-					<h2 class="bg_second_header homepage_work_part2 border_area">I Make Website<br>and<br>Design</h2>
+					<div class="homepage_work_part1">
+						<h2 class="bg_second_header">I Code and Template Websites</h2>
+						<a class="round_btn_link round_btn" href="web.php">Website</a>
+					</div>
+					<div class="homepage_work_part2 border_area">
+						<h2 class="bg_second_header">I Make Graphic<br>Design<br>Too</h2>
+						<a class="round_btn_link round_btn" href="graphic.php">Graphic</a>
+					</div>
+<!-- 					<h2 class="bg_second_header homepage_work_part1">I Code and Template Websites</h2>
+					<h2 class="bg_second_header homepage_work_part2 border_area">I Make Graphic<br>Design<br>Too</h2> -->
 					<div class="empty_border intro_grid_empty_box03"></div>
 				</div>
 
 
 
 				<div class="main_gallery_grid homepage_moblie_grid_sm">
-					<div class="empty_border gallery_item">
+					<div class="empty_border gallery_item" style="display: none">
 						<div class="empty_border gallery_item_showcase1 showcase_item"></div>
 						<div class="gallery_item_showcase2 showcase_item"></div>
 						<div class="gallery_item_showcase3 showcase_item"></div>

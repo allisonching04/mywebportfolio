@@ -1,5 +1,5 @@
 <?php
-	$this_page == 'web';
+	$this_page = 'web';
 	$page_title = "Cat Pro";
 	$portfolio_title = "App Development :<br>Cat Pro";
 ?>
@@ -20,7 +20,7 @@
 			<img class="portfolio_image_bg portfolio_image_fox" src="img/webgallery/catpro/moblie_three_catpro.png">
 			<div class="portfolio_paragraph body_paragraph moblie_body_paragraph">
 				<p class="body_text portfolio_text">
-					Lorem ipsum dolor sit amet, mauris gravida vitae, integer eget nec auctor nulla, laoreet orci ligula nulla aliquam ac justo, integer massa. Id euismod proin nulla posuere magna, imperdiet nec. Laoreet nisl diam praesentium. Id nibh, suscipit hac nec, ipsum omnis mauris arcu consectetuer sed adipiscing, leo lorem ultrices tristique penatibus. Ut pellentesque nonummy eros, velit sit risus sapien, eu nunc urna nunc. Nisl facilisis et lectus. Accumsan vel.
+					<span class="bold_body_text">Cat Pro</span> is the prototype of a social media app especailly designed for Cat Lovers (MEOW!). Cat lovers can share lovely story of CATs to other Cat Lovers on this platform. In order to increase the interaction between Cat Lovers, Cat Pro allows users to like each other's posts, photos, and comments.
 				</p>
 				<h3 class="portfolio_section_title">Skills &colon;</h3>
 				<ul class="body_text portfolio_text portfolio_skill_list">

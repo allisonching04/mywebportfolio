@@ -35,9 +35,8 @@
 
 					</p>
 				</div>
-				<div class="download_resume_btn round_btn">
-						<a class="round_btn_link" href="#">Download My Resume</a>
-					</div>
+
+				<a class="download_resume_btn round_btn_link round_btn" href="img/resume.pdf">Download my Resume</a>
 			</div>
 
 			<div class="innerpage_context_empty_box01"></div>	

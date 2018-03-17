@@ -20,7 +20,7 @@
 			<img class="portfolio_image_bg portfolio_image_fox" src="img/webgallery/fox/fox_threeinone.png">
 			<div class="portfolio_paragraph body_paragraph moblie_body_paragraph">
 				<p class="body_text portfolio_text">
-					Lorem ipsum dolor sit amet, mauris gravida vitae, integer eget nec auctor nulla, laoreet orci ligula nulla aliquam ac justo, integer massa. Id euismod proin nulla posuere magna, imperdiet nec. Laoreet nisl diam praesentium. Id nibh, suscipit hac nec, ipsum omnis mauris arcu consectetuer sed adipiscing, leo lorem ultrices tristique penatibus. Ut pellentesque nonummy eros, velit sit risus sapien, eu nunc urna nunc. Nisl facilisis et lectus. Accumsan vel.
+					<span class="bold_body_text">The Reintroduction of Swift Fox</span> is a one-page scrolling website using HTML, CSS, and JQuery. It utilizes CSS animation and GreenSock animation to create an interactive user interface for children. This project won &quot; The Department of New Media’s Top Undergraduate Student Projects &quot; in Spring 2018.
 				</p>
 				<h3 class="portfolio_section_title">Skills &colon;</h3>
 				<ul class="body_text portfolio_text portfolio_skill_list">

@@ -19,8 +19,8 @@
 			<?php include "includes/portfolio.php"; ?>
 			<img class="portfolio_image_bg portfolio_image_fox" src="img/webgallery/kimono/kimono_laptop.png">
 			<div class="portfolio_paragraph body_paragraph moblie_body_paragraph">
-				<p class="body_text portfolio_text">
-					Lorem ipsum dolor sit amet, mauris gravida vitae, integer eget nec auctor nulla, laoreet orci ligula nulla aliquam ac justo, integer massa. Id euismod proin nulla posuere magna, imperdiet nec. Laoreet nisl diam praesentium. Id nibh, suscipit hac nec, ipsum omnis mauris arcu consectetuer sed adipiscing, leo lorem ultrices tristique penatibus. Ut pellentesque nonummy eros, velit sit risus sapien, eu nunc urna nunc. Nisl facilisis et lectus. Accumsan vel.
+				<p class="body_text portfolio_text portfolio_center_text">
+					<span class="bold_body_text">The History of Kimono</span> is a static website using basic HTML and CSS code. It aims to promote the traditional clothing cultures.
 				</p>
 				<h3 class="portfolio_section_title">Skills &colon;</h3>
 				<ul class="body_text portfolio_text portfolio_skill_list">

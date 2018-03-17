@@ -21,7 +21,7 @@
 			<img class="portfolio_image_bg portfolio_image_fox" src="img/webgallery/foodApp/foodapp.png">
 			<div class="portfolio_paragraph body_paragraph moblie_body_paragraph">
 				<p class="body_text portfolio_text">
-					Lorem ipsum dolor sit amet, mauris gravida vitae, integer eget nec auctor nulla, laoreet orci ligula nulla aliquam ac justo, integer massa. Id euismod proin nulla posuere magna, imperdiet nec. Laoreet nisl diam praesentium. Id nibh, suscipit hac nec, ipsum omnis mauris arcu consectetuer sed adipiscing, leo lorem ultrices tristique penatibus. Ut pellentesque nonummy eros, velit sit risus sapien, eu nunc urna nunc. Nisl facilisis et lectus. Accumsan vel.
+					<span class="bold_body_text">Food Guide</span> is an app which suggests dinner opinion. It uses Array to anwser the question: &quot; What Should I eat &quest; &quot; I created the png food icons and installed them in my app.
 				</p>
 				<h3 class="portfolio_section_title">Skills &colon;</h3>
 				<ul class="body_text portfolio_text portfolio_skill_list">

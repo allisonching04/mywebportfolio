@@ -21,34 +21,34 @@
 					
 					<a class="webPage fox_webPage web_item_01" href="fox.php">
 						<div class="web_gallery_item gallery_text">
-							<div class="showcase_item  web_item_images01"></div>
+							<div class="showcase_item  web_item_images01 moblie_showcase"></div>
 							<p class="item_text item_text_right">CSS Animation: Swift Fox</p>
 						</div>
 					</a>
 
 					<a class="webPage fox_webPage web_item_01 web_item_02" href="ana.php">
 						<div class="web_gallery_item gallery_text">
-							<div class="showcase_item  web_item_images02"></div>
+							<div class="showcase_item  web_item_images02 moblie_showcase"></div>
 							<p class="item_text item_text_left">A N A</p>
 						</div>
 					</a>
 					
 					<a class="webPage fox_webPage web_item_01 web_item_03" href="kimono.php">
 						<div class="web_gallery_item gallery_text">
-							<div class="showcase_item  web_item_images03"></div>
+							<div class="showcase_item  web_item_images03 moblie_showcase"></div>
 							<p class="item_text item_text_right">The History of Kimono</p>
 						</div>
 					</a>
 					
 					<a class="webPage fox_webPage web_item_01 web_item_04" href="foodapp.php">
-						<div class="web_gallery_item gallery_text web_item_04">
+						<div class="web_gallery_item gallery_text web_item_04 moblie_showcase">
 							<div class="showcase_item  web_item_images04"></div>
 							<p class="item_text item_text_left">Food Guide</p>
 						</div>
 					</a>
 
 					<a class="webPage fox_webPage web_item_01 web_item_05" href="catpro.php">
-						<div class="web_gallery_item gallery_text web_item_05">
+						<div class="web_gallery_item gallery_text web_item_05 moblie_showcase">
 							<div class="showcase_item  web_item_images05"></div>
 							<p class="item_text item_text_right">Cat Pro</p>
 						</div>
