@@ -24,9 +24,11 @@ function init() {
     $(this).parent(".field-container").removeClass("is-focused");
   });
   
- $('.field-container').on( 'keyup', '.text-area', function () {
-    $(this).height(0);
-    $(this).height(this.scrollHeight);
-  });
+ // $('.field-container').on( 'keyup', '.text-area', function () {
+ //    $(this).height(0);
+ //    $(this).height(this.scrollHeight);
+ //  });
+
+  console.log('animation');
 
 }

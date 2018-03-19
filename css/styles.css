@@ -514,7 +514,7 @@ footer {
     font-size: 10em; }
 
   .moblie_body_paragraph {
-    font-size: 2em; }
+    font-size: 3.2em; }
 
   .innerpage_part1 .download_resume_btn {
     margin-top: 5vh; }
@@ -533,16 +533,24 @@ footer {
     padding: 2.5em 0;
     border: none; }
 
+  .portfolio_section_title {
+    text-align: center;
+    width: auto;
+    font-size: 1em; }
+
   .portfolio_paragraph {
     padding: 0; }
 
   .portfolio_skill_list {
     grid-template-columns: 1fr;
-    font-size: 3vw;
+    font-size: .8em;
     justify-items: center;
     grid-gap: 1em 0;
     border: 1px solid #A9A9A9;
-    padding: 2em 0; } }
+    padding: 2em 0; }
+
+  .homepage_part04_grid.contact_me_grid {
+    margin-top: 30px; } }
 @media only screen and (max-width: 321px) and (min-width: 280px) {
   .moblie_text_title {
     font-size: 10em;
@@ -564,6 +572,39 @@ footer {
     margin-top: 5em; }
 
   .homepage_part04_grid {
-    border: none !important; } }
+    border: none !important; }
+
+  .portfolio_section_title {
+    text-align: center;
+    width: auto;
+    font-size: 1em; }
+
+  .moblie_body_paragraph {
+    font-size: 3.2em; }
+
+  .portfolio_text {
+    font-size: 1.2em; }
+
+  .portfolio_section_title {
+    font-size: 2.5em; }
+
+  .portfolio_paragraph {
+    padding: 0; }
+
+  .portfolio_skill_list {
+    font-size: 1em; }
+
+  .portfolio_link {
+    font-size: 5em; }
+
+  .download_resume_btn {
+    font-size: 3em;
+    text-align: center; }
+
+  .contact_me_grid .contact_inform h3 {
+    font: 3.3em "Lato", sans-serif; }
+
+  .homepage_part04_grid.contact_me_grid {
+    margin-top: 30px; } }
 
 /*# sourceMappingURL=styles.css.map */
