@@ -552,12 +552,7 @@ footer {
     display: none; }
 
   .homepage_work_intro_grid {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    align-item: center;
-    justify-item: center;
-    text-align: center;
-    padding: 0 5em; }
+    display: flex; }
 
   .homepage_work_part1 {
     margin: 0; }
@@ -642,7 +637,8 @@ footer {
     font-size: 2vw; }
 
   .innerpage_part1 {
-    border: none; }
+    border: none;
+    grid-column: 1/-1; }
 
   .moblie_text_title {
     font-size: 10em; }
@@ -687,7 +683,19 @@ footer {
     padding: 2em 0; }
 
   .homepage_part04_grid.contact_me_grid {
-    margin-top: 30px; } }
+    margin-top: 30px; }
+
+  .download_resume_btn {
+    font-size: 2.2em; }
+
+  .web_item_03, .web_item_01, .web_item_05, .graphic_item_01, .graphic_item_03 {
+    grid-column: 1/3; }
+
+  .web_item_images04 {
+    background-position: center; }
+
+  .graphic_item_images03 {
+    background-position: center; } }
 @media only screen and (max-width: 321px) and (min-width: 280px) {
   .moblie_text_title {
     font-size: 10em;
@@ -742,6 +750,15 @@ footer {
     font: 3.3em "Lato", sans-serif; }
 
   .homepage_part04_grid.contact_me_grid {
-    margin-top: 30px; } }
+    margin-top: 30px; }
+
+  .web_item_03, .web_item_01, .web_item_05, .graphic_item_01, .graphic_item_03 {
+    grid-column: 1/3; }
+
+  .web_item_images04 {
+    background-position: center; }
+
+  .graphic_item_images03 {
+    background-position: center; } }
 
 /*# sourceMappingURL=styles.css.map */
