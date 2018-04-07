@@ -15,40 +15,40 @@
 
 		<div class="innerpage_context innerpage_gallery">
 			<div class="innerpage_part1 innerpage_part1_web">
-				<h2 class="innerpage_second_title">DESIGN &#38; </h2>
-				<h2 class="innerpage_second_title">DEVELOPMENT</h2>
+				<h2 class="innerpage_second_title huge-h2">WEB</h2>
+				<h2 class="innerpage_second_title huge-h2">DESIGN</h2>
 				<div class="body_gallery web_body_gallery">
 					
 					<a class="webPage web_item_01" href="fox.php">
-						<div class="web_gallery_item gallery_text">
+						<div id="website1" class="web_gallery_item gallery_text">
 							<div class="showcase_item  web_item_images01 moblie_showcase"></div>
 							<p class="item_text item_text_right">CSS Animation: Swift Fox</p>
 						</div>
 					</a>
 
-					<a class="webPage web_item_01 web_item_02" href="ana.php">
-						<div class="web_gallery_item gallery_text">
+					<a class="webPage web_item_01 web_item_02" href="griddemo.php">
+						<div id="website2" class="web_gallery_item gallery_text">
 							<div class="showcase_item  web_item_images02 moblie_showcase"></div>
-							<p class="item_text item_text_left">A N A</p>
+							<p class="item_text item_text_left">The Study of CSS Grid</p>
 						</div>
 					</a>
 					
 					<a class="webPage web_item_03" href="kimono.php">
-						<div class="web_gallery_item gallery_text">
+						<div id="website3" class="web_gallery_item gallery_text">
 							<div class="showcase_item  web_item_images03 moblie_showcase"></div>
 							<p class="item_text item_text_right">The History of Kimono</p>
 						</div>
 					</a>
 					
 					<a class="webPage web_item_04" href="foodapp.php">
-						<div class="web_gallery_item gallery_text web_item_04 moblie_showcase">
+						<div id="website4" class="web_gallery_item gallery_text web_item_04 moblie_showcase">
 							<div class="showcase_item  web_item_images04"></div>
 							<p class="item_text item_text_left">Food Guide</p>
 						</div>
 					</a>
 
 					<a class="webPage web_item_05" href="catpro.php">
-						<div class="web_gallery_item gallery_text web_item_05 moblie_showcase">
+						<div id="website5" class="web_gallery_item gallery_text web_item_05 moblie_showcase">
 							<div class="showcase_item  web_item_images05"></div>
 							<p class="item_text item_text_right">Cat Pro</p>
 						</div>
@@ -60,7 +60,7 @@
 			<div class="innerpage_context_empty_box01"></div>	
 			<div class="innerpage_context_empty_box02"></div>	
 			<div class="homepage_part04_grid contact_me_grid">
-		<h2 class="contactme_header">Contact Me</h2>
+		<h2 class="contactme_header">SAY HI !</h2>
 		<div class="contact_inform">
 				<h3 class="bg_body_header">
 					<a href="mailto:allisonchinglee@gmail.com" target="_top">contactme@chingchinglee.com</a>
@@ -82,7 +82,8 @@
 					  <div class="field-container">
 					    <textarea class="input text-area" name="message" placeholder="Your Message"></textarea>
 					  </div>
-						<button type="submit" name="submit" class="btn round_btn">Say Hi!</button>
+						<button type="submit" name="submit" class="btn round_btn form-submit-btn">Say Hi!</button>
+						<p id="form-sent" class="form-action sent-hide">Sent!</p>
 					</form>
 				</div></div></div>
 			<div class="innerpage_context_empty_box03"></div>	
@@ -94,7 +95,10 @@
 	</div>
 
 	<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
-	<?php include "includes/animation.php"; ?>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+	<script type="text/javascript" src="js/scrollmagic/minified/ScrollMagic.min.js"></script>
+	<script type="text/javascript" src="js/scrollmagic/minified/plugins/debug.addIndicators.min.js"></script>
+	<script type="text/javascript" src=js/scrollmagic/minified/plugins/animation.gsap.min.js></script>
 	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

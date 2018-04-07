@@ -1,7 +1,7 @@
 <?php
-	$this_page = "graphic";
-	$page_title = "Flat Design";
-	$portfolio_title = "Flat Design<br>Collection";
+	$this_page = "web";
+	$page_title = "CSS GRID DEMO";
+	$portfolio_title = "The Study of<br>CSS Grid";
 ?>
 
 <!DOCTYPE html>
@@ -17,20 +17,22 @@
 	<div class="innerpage_context innerpage_gallery">
 		<div class="innerpage_web_detail">
 			<?php include "includes/portfolio.php"; ?>
-			<img class="portfolio_image_bg portfolio_image_fox" src="img/graphic/flatDesign/flat_gp.png">
+			<img class="portfolio_image_bg portfolio_image_fox" src="img/webgallery/cssdemo/gridlaptop.png">
 			<div class="portfolio_paragraph body_paragraph moblie_body_paragraph">
 				<p class="body_text portfolio_text">
-					<span class="bold_body_text">This is a collection</span> of flat design and illurstation.
+					<span class="bold_body_text">This a demo and study</span> of CSS Grid from Ching Ching Lee, a third-year New Media student from The University of Lethbridge. I am very interested in web design, I used to apply and follow Flexbox and float methods to write websites but those methods are somehow thicky to create a layout that will fit content perfectly in different browsers. Not too far later, CSS Grid is released, and then is supported by most of the mainstream browsers since March 2017, this new system solves a lot of website layout problems and also helps me to develop websites in a more structured way. So, I believe it is important to learn the related system to catch up the upcoming trend.
 				</p>
 				<h3 class="portfolio_section_title">Skills</h3>
 				<ul class="body_text portfolio_text portfolio_skill_list">
+					<li class="skill_list_detail">CSS GRID</li>
+					<li class="skill_list_detail">Flexbox</li>
+					<li class="skill_list_detail">HTML</li>
 					<li class="skill_list_detail">Adobe Illustrator CC</li>
 					<li class="skill_list_detail">Adobe Photoshop CC</li>
-					<li class="skill_list_detail">Colour Theory</li>
-					<li class="skill_list_detail">Graphic Design</li>
-					<li class="skill_list_detail">Drawing</li>
+					<li class="skill_list_detail">UI &amp; UX</li>
 				</ul>
 			</div>
+			<a class="body_text portfolio_text portfolio_link" href="http://chingchingleegridstudy.atwebpages.com">Check it Online</a>
 			
 		</div>
 

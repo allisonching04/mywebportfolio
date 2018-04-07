@@ -62,7 +62,8 @@
 					  <div class="field-container">
 					    <textarea class="input text-area" name="message" placeholder="Your Message"></textarea>
 					  </div>
-						<button type="submit" name="submit" class="btn round_btn">Say Hi!</button>
+						<button type="submit" name="submit" class="btn round_btn form-submit-btn">Say Hi!</button>
+						<p id="form-sent" class="form-action sent-hide">Sent!</p>
 					</form>
 				</div></div></div>
 			<div class="innerpage_context_empty_box03"></div>	
@@ -74,7 +75,10 @@
 	</div>
 
 	<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
-	<?php include "includes/animation.php"; ?>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+	<script type="text/javascript" src="js/scrollmagic/minified/ScrollMagic.min.js"></script>
+	<script type="text/javascript" src="js/scrollmagic/minified/plugins/debug.addIndicators.min.js"></script>
+	<script type="text/javascript" src=js/scrollmagic/minified/plugins/animation.gsap.min.js></script>
 	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

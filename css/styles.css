@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700|Merriweather:400,900");
 @import url(gallery.css);
-@import url(animation.css);
 * {
   box-sizing: border-box; }
 
@@ -14,10 +13,13 @@ img {
   width: 100%; }
 
 h2 {
-  font-size: 4.8em;
+  font-size: 6em;
   font-weight: 900;
   padding: 0;
   margin: 0; }
+
+.huge-h2 {
+  font-size: 10em; }
 
 h3 {
   font: 100% "Lato", sans-serif; }
@@ -32,6 +34,11 @@ a {
   font-weight: 300;
   text-decoration: none;
   cursor: pointer; }
+
+.text_link {
+  font-weight: 700; }
+  .text_link:hover {
+    color: #DE1B1B; }
 
 .empty_border, .border_area {
   border: 1px solid #DFDCE3; }
@@ -87,9 +94,8 @@ a {
     .homepage_part01_grid .homepage_bg_intro .typing_header {
       margin: 0; }
     .homepage_part01_grid .homepage_bg_intro .bg_first_header1 {
-      font-size: 8em; }
-    .homepage_part01_grid .homepage_bg_intro .bg_first_header2 {
-      font-size: 6em; }
+      font-size: 5.2em;
+      margin: 0; }
   .homepage_part01_grid .homepage_bg_logo {
     grid-column: 3/4; }
   .homepage_part01_grid .shomepage_intro_svg {
@@ -100,7 +106,6 @@ a {
   margin: 0;
   display: grid;
   grid-template-columns: 3fr 1fr 4fr 4fr 1fr 3fr;
-  grid-template-rows: 300px 300px 200px;
   height: 80vh; }
   .homepage_part02_grid .aboutme_empty_box01 {
     grid-row: 1/3;
@@ -342,12 +347,18 @@ a {
 .contact-form-container :-ms-placeholder {
   color: #DFDCE3; }
 
+button {
+  background-color: transparent; }
+
 .round_btn:hover, .round_btn:active, .round_btn:focus {
   border-color: #DE1B1B;
   color: #DE1B1B; }
 
 .round_btn > *:hover, .round_btn > *:active, .round_btn > *:focus {
   color: #DE1B1B; }
+
+.sent-hide {
+  display: none; }
 
 footer {
   display: flex;
@@ -360,6 +371,115 @@ footer {
     margin: 0; }
 
 @media only screen and (min-width: 802px) {
+  .css-typing h1 {
+    border-right: 0.15em solid #A9A9A9;
+    white-space: nowrap;
+    overflow: hidden; }
+
+  .css-typing h1:nth-child(1) {
+    width: 3.85em;
+    -webkit-animation: type 2s steps(10, end);
+    animation: type 2s steps(10, end);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards; }
+
+  .css-typing h1:nth-child(2) {
+    width: 2.28em;
+    opacity: 0;
+    -webkit-animation: type2 2s steps(10, end);
+    animation: type2 2s steps(10, end);
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards; }
+
+  .css-typing h1:nth-child(3) {
+    width: 3.5em;
+    opacity: 0;
+    -webkit-animation: type3 3s steps(20, end), blink 0.5s step-end infinite alternate;
+    animation: type3 3s steps(20, end), blink 0.5s step-end infinite alternate;
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards; }
+
+  .css-typing h1:nth-child(4) {
+    width: 3.5em;
+    opacity: 0;
+    -webkit-animation: type4 3s steps(20, end), blink 0.5s step-end infinite alternate;
+    animation: type4 3s steps(20, end), blink 0.5s step-end infinite alternate;
+    -webkit-animation-delay: 7.2s;
+    animation-delay: 7.2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards; }
+
+  @keyframes type {
+    0% {
+      width: 0; }
+    99.9% {
+      border-right: 0.15em solid #A9A9A9; }
+    100% {
+      border: none; } }
+  @-webkit-keyframes type {
+    0% {
+      width: 0; }
+    99.9% {
+      border-right: 0.15em solid #A9A9A9; }
+    100% {
+      border: none; } }
+  @keyframes type2 {
+    0% {
+      width: 0; }
+    1% {
+      opacity: 1; }
+    99.9% {
+      border-right: 0.15em solid #A9A9A9; }
+    100% {
+      opacity: 1;
+      border: none; } }
+  @-webkit-keyframes type2 {
+    0% {
+      width: 0; }
+    1% {
+      opacity: 1; }
+    99.9% {
+      border-right: 0.15em solid #A9A9A9; }
+    100% {
+      opacity: 1;
+      border: none; } }
+  @keyframes type3 {
+    0% {
+      width: 0; }
+    1% {
+      opacity: 1; }
+    99.9% {
+      border-right: 0.15em solid #A9A9A9; }
+    100% {
+      opacity: 1;
+      border: none; } }
+  @-webkit-keyframes type3 {
+    0% {
+      width: 0; }
+    1% {
+      opacity: 1; }
+    99.9% {
+      border-right: 0.15em solid #A9A9A9; }
+    100% {
+      opacity: 1;
+      border: none; } }
+  @keyframes type4 {
+    0% {
+      width: 0; }
+    1% {
+      opacity: 1; }
+    100% {
+      opacity: 1; } }
+  @keyframes blink {
+    50% {
+      border-color: transparent; } }
+  @-webkit-keyframes blink {
+    50% {
+      border-color: tranparent; } }
   .primary_nav_flex {
     align-items: center;
     display: flex;
@@ -397,10 +517,18 @@ footer {
     position: absolute;
     top: 1.5em;
     left: 15%;
-    width: 70%;
+    width: 60%;
     height: 3px;
     transform: scaleX(2);
-    background-color: #DE1B1B; } }
+    background-color: #DE1B1B; }
+
+  .aboutName {
+    height: 20vh;
+    font: 6.6em "Merriweather", serif;
+    font-weight: 700; } }
+@media only screen and (min-width: 810px) {
+  .homepage_part01_grid .homepage_bg_intro .bg_first_header1 {
+    font-size: 5.8em; } }
 @media only screen and (max-width: 801px) and (min-width: 651px) {
   .homepage_bg_logo {
     display: none; } }
@@ -428,7 +556,8 @@ footer {
     grid-template-rows: auto;
     align-item: center;
     justify-item: center;
-    text-align: center; }
+    text-align: center;
+    padding: 0 5em; }
 
   .homepage_work_part1 {
     margin: 0; }
@@ -448,7 +577,12 @@ footer {
     grid-template-columns: 1fr; }
 
   .body_gallery .web_gallery_item .showcase_item {
-    margin: 0 !important; } }
+    margin: 0 !important; }
+
+  .aboutName {
+    height: 20vh;
+    font: 5.5em "Merriweather", serif;
+    font-weight: 700; } }
 @media only screen and (max-width: 800px) and (min-width: 320px) {
   .primary_nav {
     border-bottom: 1px solid #DFDCE3; }
@@ -536,7 +670,10 @@ footer {
   .portfolio_section_title {
     text-align: center;
     width: auto;
-    font-size: 1em; }
+    font-size: 1em;
+    display: flex;
+    padding: 0;
+    justify-content: center; }
 
   .portfolio_paragraph {
     padding: 0; }

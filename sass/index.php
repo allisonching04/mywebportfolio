@@ -19,23 +19,7 @@
 
 			<div class="homepage_part01_grid homepage_moblie_grid_sm">
 				<div class="homepage_bg_intro typing_name">
-					<div id="typedtext"></div>
-					<!-- <h1 class="bg_first_header1 typing_header typing_header">Hello&excl;<br>I AM<br>CHING<br>CHING.</h1> -->
-					<div class="css-typing">
-					  <h1 class="bg_first_header1 typing_header">
-					    HELLO!
-					  </h1>
-					  <h1 class="bg_first_header1 typing_header">
-					    I AM
-					  </h1>
-					  <h1 class="bg_first_header1 typing_header">
-					    CHING
-					  </h1>
-					  <h1 class="bg_first_header1 typing_header">
-					    CHING 
-					  </h1>
-					</div>
-					<h1 class="bg_first_header1 typing_header typing_header"></h1>
+					<h1 class="bg_first_header1 typing_header typing_header1">Hello&excl;<br>I AM<br>CHING<br>CHING.</h1>
 				</div>
 				<div class="homepage_bg_logo">
 					<img src="img/homepage_logo.png" alt="myName">
@@ -44,9 +28,9 @@
 				<div class="shomepage_intro_svg" style="text-align: center;">
 					<a class="homepage_intro_scroll_part02" href="#homepage_part02">
 						<svg width="30px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.3 14.2">
-						  <g fill="none" stroke-miterlimit="1">
-						    <path d="M4.7.7c2.2 0 4 1.8 4 4v4.8c0 2.2-1.8 4-4 4s-4-1.8-4-4V4.7c0-2.2 1.8-4 4-4z" stroke="#a9a9a9" stroke-width="0.5px"/>
-						    <path class="red-scroll" d="M4.7 2.5v2.3" stroke="#de1b1b" stroke-width="0.75px" stroke-linecap="round"/>
+						  <g fill="none" stroke-miterlimit="2">
+						    <path d="M4.7.7c2.2 0 4 1.8 4 4v4.8c0 2.2-1.8 4-4 4s-4-1.8-4-4V4.7c0-2.2 1.8-4 4-4z" stroke="#a9a9a9"/>
+						    <path class="red-scroll" d="M4.7 2.5v2.3" stroke="#de1b1b" stroke-linecap="round"/>
 						  </g>
 						</svg>
 					</a>
@@ -114,7 +98,7 @@
 
 				<div class="empty_border lg_contact_empty_box"></div>
 
-				<h2 class="contactme_header">SAY HI !</h2>
+				<h2 class="contactme_header">Contact Me</h2>
 
 				<div class="contact_inform">
 					<h3 class="bg_body_header">
@@ -156,7 +140,7 @@
 	</div>
 
 	<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
 	<script type="text/javascript" src="js/scrollmagic/minified/ScrollMagic.min.js"></script>
 	<script type="text/javascript" src="js/scrollmagic/minified/plugins/debug.addIndicators.min.js"></script>
 	<script type="text/javascript" src=js/scrollmagic/minified/plugins/animation.gsap.min.js></script>

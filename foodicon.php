@@ -22,7 +22,7 @@
 				<p class="body_text portfolio_text">
 					<span class="bold_body_text">This is a collection</span> of food icons.
 				</p>
-				<h3 class="portfolio_section_title">Skills &colon;</h3>
+				<h3 class="portfolio_section_title">Skills</h3>
 				<ul class="body_text portfolio_text portfolio_skill_list">
 					<li class="skill_list_detail">Adobe Illustrator CC</li>
 					<li class="skill_list_detail">Adobe Photoshop CC</li>
@@ -31,14 +31,13 @@
 					<li class="skill_list_detail">Drawing</li>
 				</ul>
 			</div>
-			<a class="body_text portfolio_text portfolio_link" href="chingchingleefox.atwebpages.com">Check it Online</a>
 			
 		</div>
 
 		<div class="innerpage_context_empty_box01"></div>	
 		<div class="innerpage_context_empty_box02"></div>	
-		<div class="homepage_part04_grid contact_me_grid">
-		<h2 class="contactme_header">Contact Me</h2>
+		<div class="homepage_part04_grid contact_me_grid contact_me_show_grid">
+		<h2 class="contactme_header">SAY HI !</h2>
 		<div class="contact_inform">
 				<h3 class="bg_body_header">
 					<a href="mailto:allisonchinglee@gmail.com" target="_top">contactme@chingchinglee.com</a>
@@ -60,7 +59,8 @@
 					  <div class="field-container">
 					    <textarea class="input text-area" name="message" placeholder="Your Message"></textarea>
 					  </div>
-						<button type="submit" name="submit" class="btn round_btn">Say Hi!</button>
+						<button type="submit" name="submit" class="btn round_btn form-submit-btn">Say Hi!</button>
+						<p id="form-sent" class="form-action sent-hide">Sent!</p>
 					</form>
 				</div></div></div>
 			<div class="innerpage_context_empty_box03"></div>	
@@ -72,7 +72,10 @@
 	</div>
 
 	<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
-	<?php include "includes/animation.php"; ?>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+	<script type="text/javascript" src="js/scrollmagic/minified/ScrollMagic.min.js"></script>
+	<script type="text/javascript" src="js/scrollmagic/minified/plugins/debug.addIndicators.min.js"></script>
+	<script type="text/javascript" src=js/scrollmagic/minified/plugins/animation.gsap.min.js></script>
 	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
